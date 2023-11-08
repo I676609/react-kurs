@@ -12,7 +12,7 @@ console.log(checked);
   return (
     <Box sx={{ my: 4 }}>
       <Typography variant="h5" component="h2" gutterBottom>
-        It might be over
+        It is over
       </Typography>
       <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
       <Typography variant="body1">{descriptionText}</Typography>
